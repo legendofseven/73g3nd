@@ -28,3 +28,5 @@ music.play(music.tonePlayable(294, music.beat(BeatFraction.Whole)), music.Playba
 music.play(music.tonePlayable(330, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
 music.play(music.tonePlayable(370, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
 music.play(music.tonePlayable(247, music.beat(BeatFraction.Double)), music.PlaybackMode.UntilDone)
+makerbit.clearLcd1602()
+makerbit.showStringOnLcd1602("Stupify!", makerbit.position1602(LcdPosition1602.Pos5), 8)
